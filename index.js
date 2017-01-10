@@ -1,3 +1,5 @@
 +function() {
-	alert('Hello world!');
+	setTimeout(function() {
+		alert('Hello world!');
+	}, 500);
 }();
